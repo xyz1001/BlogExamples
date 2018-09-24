@@ -1,0 +1,48 @@
+QSpinBox::up-button {
+    subcontrol-position: left top;
+    width: 20px;
+}
+
+QSpinBox::down-button {
+    subcontrol-position: left bottom;
+    width: 20px;
+}
+
+
+/* 规则1 */
+
+QWidget {
+    background-color: yellow;
+}
+
+/* 规则2 */
+
+QPushButton {
+    background-color: red;
+}
+
+/* 规则3 */
+
+QPushButton:checked {
+    background-color: green;
+    color: red;
+}
+
+/* 规则4 */
+
+QPushButton:pressed {
+    background-color: blue;
+}
+
+/* 规则5 */
+
+QPushButton:hover {
+    background-color: white;
+    color: green;
+}
+
+/* 规则6 */
+
+QPushButton:pressed:hover {
+    background-color: pink;
+}
