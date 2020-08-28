@@ -16,8 +16,7 @@
 
 std::string SystemInfo::GetOsVersion() const {
     TAG(getOsVersion);
-    auto jver =  call<jstring, getOsVersion>();
-    return "";
+    return  call<std::string, getOsVersion>();
 }
 
 int SystemInfo::GetApiLevel() const {
